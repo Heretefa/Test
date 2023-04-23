@@ -1,0 +1,44 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    color: 198, 253, 0;
+    padding: 0;
+    margin: 0;
+    background-color:#2e92d4;
+    text-align: center;
+}
+.right{
+    background-color: rgba(75, 226, 75, 0.5);
+}
+.wrong{
+    background-color: rgb(214, 85, 92);
+}
+.hidden{
+    display: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    height: 700px;
+}
+img{
+    width: 200px;
+    height: 300px;
+    transition: transform .5s ease;
+    box-shadow: 3px 3px 7px 0 rgb(198, 253, 0),
+    -4px -4px 8px 0 rgba(198, 253, 0);
+}
+img:hover {
+    transform: scale(1.05);
+}
+button {
+    position: center;
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: rgb(198, 253, 0);
+    color: white;
+}
